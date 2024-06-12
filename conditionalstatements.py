@@ -39,7 +39,7 @@ elif city==("agra"):
 elif city==("jaipur"):
    print("monument of city is jai mahal")
 else:
-   print("invalid city")'''
+   print("invalid city")
    
 unit=int(input("enter the unit :"))
 if unit<=100:
@@ -48,5 +48,13 @@ elif unit<=200:
     unit-=100
     print('5rs may increase as per unit,current charge is :',unit*5)
 else:
-    print('10rs may increase as per unit,current charge is',(unit-200)*10+500)
+    print('10rs may increase as per unit,current charge is',(unit-200)*10+500)'''
+
+for i in range(1,11):
+     print(i)
+
+for i in range(1,10,2):
+     print(i)
+
+
   
