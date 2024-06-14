@@ -39,13 +39,20 @@ b=int(input('enter a number to find factorial :'))
 sum=1
 for i in range(a,b+1):
     sum*=i
-print(sum)'''
+print(sum)
 
 a=1
 b=int(input('enter a number :'))
 sum=1
 for i in range(a,11):
-      print(i,'*',a,'=',i*b)
+      print(i,'*',a,'=',i*b)'''
+
+
+for i in range(3):
+    for j in range(3):
+        print('*',end="    ") 
+    print()
+
 
       
 
