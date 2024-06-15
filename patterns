@@ -63,12 +63,100 @@ for i in range(1,4):
     for j in range(i):
         print(a,end=" ")
         a+=1
-    print()'''        
+    print()       
+
+counter=0
+for i in range(1,4):
+    for j in range(i):
+      print(counter**2,end="")
+      counter+=1
+    print()
+
+for i in range(3):
+    a=65
+    for j in range(4):
+      print(chr(a),end=" ")
+      a+=1
+    print()
+
+for i in range(3):
+    for j in range(4):
+      a=65
+      print(chr(a+i),end=" ")
+    print()   
+
+a=65
+for i in range(3):
+    for j in range(4):
+      print(chr(a),end=" ")
+      a+=1
+    print()
 
 
+a=65
+for i in range(1,4):
+    for j in range(a,a+i):
+       print(chr(j),end=" ")
+    print()
 
-   
-        
+a=65
+for i in range(1,4):
+    for j in range(a,a+i):
+        print(chr((a-1)+i),end=" ")
+    print()
 
 
+for i in range(1,4):
+    a=65
+    for j in range(i,0,-1):
+         print(chr((a-1)+j),end=" ")
+    print()
+a=3
+for i in range(1,a+1):
+    for j in range(i):
+        print('*',end=" ")
+    print()
+for i in range(a-1,0,-1):
+    for j in range(i):
+        print('*',end=" ")
+    print()
 
+a=3
+for i in range(1,a+1):
+    for j in range(i):
+        print(j+1,end=" ")
+    print()
+for i in range(a-1,0,-1):
+    for j in range(i):
+        print(j+1,end=" ")
+    print()
+
+a=3
+for i in range(1,4):
+    for j in range(i):
+        j=64
+        print(chr(i+j),end=" ")
+    print()
+    for i in range(a-1,0,-1):
+    for j in range(i):
+        j=64
+        print(chr(j+i),end=" ")
+    print()
+
+
+b=3
+a=64
+for i in range(1,b+1):
+    for j in range(i):
+        print(chr((a+1)+j),end=" ")
+    print()
+for i in range(b -1,0,-1):
+    for j in range(i):
+        print(chr((a+1)+j),end=" ")
+    print()'''
+
+a=0
+b=1
+for i in range(10): 
+   print(a,end=" ")
+   a,b=b,a+b
