@@ -45,13 +45,68 @@ a=1
 b=int(input('enter a number :'))
 sum=1
 for i in range(a,11):
-      print(i,'*',a,'=',i*b)'''
+      print(i,'*',a,'=',i*b)
 
 
 for i in range(3):
     for j in range(3):
         print('*',end="    ") 
     print()
+
+i=1 
+while i<=10:
+    print(i)
+    i+=1
+
+a=int(input('enter a number :'))
+b=int(input('enteranother number :'))
+while a<=b:
+    print(a)
+    a+=1
+      
+a=int(input('enter a number :'))
+b=int(input('enteranother number :'))
+sum=0
+while a<=b:
+    sum+=a
+    a+=1
+print(sum)
+
+a=int(input('enter a number :'))
+b=int(input('enteranother number :'))
+sum=0
+while a<=b:
+    if a%2==1:
+       print(a)
+       sum+=a   
+    a+=1
+print(sum)
+
+a=int(input('enter a number :'))
+b=int(input('enteranother number :'))
+sum=0
+even=0
+odd=0
+while a<=b:
+    sum+=a
+    if a%2==1:
+        odd+=a
+    else:
+        even+=a
+    a+=1    
+print('sum :',sum)
+print('odd :',odd)
+print('even :',even)'''
+
+i=1
+a=int(input('enter a number to find factorial :'))
+sum=1
+while i<=a:
+    sum*=i
+    i+=1
+print(sum)
+
+
 
 
       
