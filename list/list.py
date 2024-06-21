@@ -13,7 +13,7 @@ print(L)
 del L[3]
 print(L)'''
 
-L=[30,20,'welcome']
+'''L=[30,20,'welcome']
 L.append(20)
 print(L)
 L.insert(2,45)
@@ -24,4 +24,21 @@ L.remove('welcome')
 print(L)
 L.pop(1)
 print(L)
-L.clear()
+L.clear()'''
+
+L=[10,10,1,'abc']
+print(L.index(1))
+print(L.count(10))
+B=L.copy()
+print(B)
+
+B.pop()
+print(B)
+print(L)
+
+L=[12,3,45,3]
+L.sort()
+print(L)
+L.reverse()
+print(L)
+
