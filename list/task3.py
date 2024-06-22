@@ -3,7 +3,7 @@ a=int(input("enter the limit :"))
 for i in range(a):
     b=str(input("enter the names"))
     name.append(b)
-print(name)'''
+print(name)
 
 name=[]
 while True:
@@ -27,7 +27,46 @@ while True:
         old_name=input('enter name :')
         if old_name in name:
             name.remove(old_name)
-        
+
+Original_list=[1,2,3,4,4,3,5]
+unique_list = []
+for item in Original_list:
+    if item not in unique_list:
+        unique_list.append(item)
+print(unique_list)
+
+sum=0
+L=[1,2,3,'demo']
+print(L)
+for i in L:
+    if type (i)==int or type (i)==float:
+        sum+=i
+print(sum)
+
+L=[1,5,2,7,9]
+print(L)
+large=max(L)
+print(large)'''
+
+L=[1,5,9,0]
+print(L)
+L.sort()
+print(L[-1])
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
         
 
 
