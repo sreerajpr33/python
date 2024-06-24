@@ -54,7 +54,17 @@ L.sort()
 print(L[-1])'''
 
     
-L=[12,3,4,5,6]
+numbers = [5, 3, 8, 6, 2, 9, 1]
+print("List of numbers:", numbers)
+for i in range(len(numbers) - 1):
+    for j in range(i + 1, len(numbers)):
+        if numbers[i] < numbers[j]:
+            temp = numbers[i]
+            numbers[i] = numbers[j]
+            numbers[j] = temp
+largest_number = numbers[0]
+print("Largest number in the list:", largest_number)
+
 
 
 
