@@ -46,14 +46,15 @@ print(sum)
 L=[1,5,2,7,9]
 print(L)
 large=max(L)
-print(large)'''
+print(large)
 
 L=[1,5,9,0]
 print(L)
 L.sort()
-print(L[-1])
+print(L[-1])'''
 
     
+L=[12,3,4,5,6]
 
 
 
