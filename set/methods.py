@@ -1,5 +1,5 @@
-# s={1,2,3,4,6,7}
-# a={1,3,2,4,8}
+s={1,2,3,4,6,7}
+a={1,3,2,4,8}
 # f=set()
 
 # s.add(20)
@@ -13,7 +13,7 @@
 # a.remove(4)
 # print(a)
 
-# print(s.intersection(a))
+print(a.intersection(s))
 
 # print(s.isdisjoint(a)
 
