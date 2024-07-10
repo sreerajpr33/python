@@ -5,10 +5,8 @@
 # f.write('welcome')
 
 f=open('python/module/file_handling/new2.txt','w')
-l=[]
 r=int(input('enter the limit'))
 for i in range(r):
     name=input('enter the names :')
-    l.append(name)
-print(l)
+    f.write(name)
 
