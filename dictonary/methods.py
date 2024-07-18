@@ -24,9 +24,9 @@ l=[1,2,3,4]
 # d.update({'place':'ekm'})
 # print(d)
 
-d1=d.fromkeys(l)
-print(d1)
-print(d)
+# d1=d.fromkeys(l)
+# print(d1)
+# print(d)
 
 # t=d.copy()
 # print(t)

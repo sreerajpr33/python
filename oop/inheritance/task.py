@@ -37,10 +37,72 @@
 # students.sub()
     
 
-                                                #multilevel inheritance
+#                                                 #multilevel inheritance
+# class industory:
+#     def wk1(self):
+#         self.database='mysql'
+#         print('work1',self.database)
+# class supervisor(industory):
+#     def wk2(self):
+#         print('work2')
+#     def wk3(self):
+#         print('work3')
+# class staff(supervisor):
+#     def helo(self):
+#         print('work4')
+# industory=industory()
+# industory.wk1()
+
+                                        #4.heirarchical
 class industory:
     def work1(self):
         print('work1')
+    
+class suprvisor(industory):
     def work2(self):
         print('work2')
-class worker()    
+    
+class staff(industory):
+    def work3(self):
+        print('work3')
+
+
+aa=suprvisor()
+aa.work1()
+aa.work2()
+
+
+        #5.hybrid
+class a:
+    def a1(self):
+            print('a1')
+class b:
+    def b1(self):
+        print('b1')
+class f:
+    def f1(self):
+        print('f1')
+class c(a,b):
+    def c1(self):
+        print('c1')
+class d(b,f):
+    def d1(self):
+        print("d1")
+class e(c,d):
+    def e1(self):
+        print('e1') 
+
+
+
+ee=e()
+ee.e1()
+ee.c1()
+ee.a1()
+ee.b1()
+ee.f1()
+ee.d1()
+ee.a1()
+
+
+
+

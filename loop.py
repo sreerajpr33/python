@@ -106,10 +106,11 @@
 #     i+=1
 # print(sum)
 
-
-
-
-      
+f=5
+for i in range(1,f+1):
+    for j in range(i):
+        print((i+j)%2,end=' ')
+    print()
 
     
 
