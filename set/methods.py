@@ -1,6 +1,6 @@
-s={1,2,3,4,6,7}
+s={1,2,3,4,5,6}
 a={1,3,2,4,8}
-# f=set()
+f=set()
 
 # s.add(20)
 # print(s)
@@ -13,9 +13,9 @@ a={1,3,2,4,8}
 # a.remove(4)
 # print(a)
 
-print(a.intersection(s))
+# print(a.intersection(s))
 
-# print(s.isdisjoint(a)
+# print(s.isdisjoint(a))
 
 # f=s.copy()
 # print('f:',f)
@@ -29,7 +29,7 @@ print(a.intersection(s))
 # s.pop()
 # print(s)
 
-# print(s.symmetric_difference({1,2,3}))
+# print(s.symmetric_difference(a))
 
 # print(a.union(s))
 

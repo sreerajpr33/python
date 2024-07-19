@@ -26,7 +26,7 @@ L=[30,20,'welcome']
 # print(L)
 # L.clear()
 
-# L=[10,10,1,'abc']
+L=[10,10,1,'abc']
 # print(L.index(1))
 # print(L.count(10))
 # B=L.copy()
@@ -36,7 +36,7 @@ L=[30,20,'welcome']
 # print(B)
 # print(L)
 
-# L=[12,3,45,3]
+L=[12,3,45,3]
 # L.sort()
 # print(L)
 # L.reverse()
