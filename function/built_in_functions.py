@@ -1,5 +1,5 @@
                                         #map
-# l=[1,2,3]
+l=[1,2,3]
 # sq=map(lambda a:a**2,l)
 # print(list(sq))
 
@@ -29,13 +29,13 @@
 # print(list(ev1))
 
                                     #reduce
-l=[1,2,3,4,5]
-import functools
-data=functools.reduce(lambda total,value:total*value,l)
-print(data)
+# l=[1,2,3,4,5]
+# import functools
+# data=functools.reduce(lambda total,value:total*value,l)
+# print(data)
 
-def fun1(total,value):
-    return total*value
-import functools
-data1=functools.reduce(fun1,l)
-print(data1)
+# def fun1(total,value):
+#     return total*value
+# import functools
+# data1=functools.reduce(fun1,l)
+# print(data1)

@@ -19,17 +19,17 @@
 #     a=2
 #     for j in range(3):
 #         if i%2==0:
-#           print(j,end='\t')
+#             print(j,end='\t')
 #         else:
-#           print(a,end="\t")
-#           a-=1
+#             print(a,end="\t")
+#             a-=1
 #     print()
 
 # a=-2
 # for i in range(3):
 #     for j in range(3):
-#           a+=2
-#           print(a,end='\t')
+#             a+=2
+#             print(a,end='\t')
 #     print()
 
 # for i in range(4):
@@ -50,7 +50,7 @@
 #     print()
 
 # for i in range(1,4):
-#     for j in range(1,1+i):
+#     for j in range(i):
 #         print(i,end=" ")
 #     print()
 
@@ -58,6 +58,7 @@
 #     for j in range(i,0,-1):
 #         print(j,end="\t")
 #     print()
+
 # a=0
 # for i in range(1,4):
 #     for j in range(i):
@@ -81,27 +82,27 @@
 
 # for i in range(3):
 #     for j in range(4):
-#       a=65
-#       print(chr(a+i),end=" ")
+#         a=65
+#         print(chr(a+i),end=" ")
 #     print()   
 
 # a=65
 # for i in range(3):
 #     for j in range(4):
-#       print(chr(a),end=" ")
-#       a+=1
+#         print(chr(a),end=" ")
+#         a+=1
 #     print()
 
 
 # a=65
 # for i in range(1,4):
 #     for j in range(a,a+i):
-#        print(chr(j),end=" ")
+#         print(chr(j),end=" ")
 #     print()
 
 # a=65
 # for i in range(1,4):
-#     for j in range(a,a+i):
+#     for j in range(i):
 #         print(chr((a-1)+i),end=" ")
 #     print()
 
@@ -109,11 +110,11 @@
 # for i in range(1,4):
 #     a=65
 #     for j in range(i,0,-1):
-#          print(chr((a-1)+j),end=" ")
+#         print(chr((a-1)+j),end=" ")
 #     print()
 # a=3
 # for i in range(1,a+1):
-#     for j in range(i):
+#     for j in range(i):                        
 #         print('*',end=" ")
 #     print()
 # for i in range(a-1,0,-1):
@@ -137,7 +138,7 @@
 #         j=64
 #         print(chr(i+j),end=" ")
 #     print()
-#     for i in range(a-1,0,-1):
+# for i in range(a-1,0,-1):
 #     for j in range(i):
 #         j=64
 #         print(chr(j+i),end=" ")
@@ -162,28 +163,55 @@
 #    a,b=b,a+b
 
 
-# 1
-# 0 1
-# 1 0 1
-# 0 1 0 1
-# 1 0 1 0 1
+# # 1
+# # 0 1
+# # 1 0 1
+# # 0 1 0 1
+# # 1 0 1 0 1
 
 
-for i in range(1,6):
-    for j in range(i):
-        print((i+j)%2,end=" ")
-    print()
+# for i in range(1,6):
+#     for j in range(i):
+#         print((i+j)%2,end=" ")
+#     print()
 
-''' #
-    + +
-    # # #
-    + + + +
-    # # # # #'''
+# ''' #
+#     + +
+#     # # #
+#     + + + +
+#     # # # # #'''
 
-for i in range(1,6):
-    for j in range(i):
-        if i%2==0:
-            print('+',end=" ")
-        else:
-            print('#',end=" ")
-    print()
+# for i in range(1,6):
+#     for j in range(i):
+#         if i%2==0:
+#             print('+',end=" ")
+#         else:
+#             print('#',end=" ")
+#     print()
+
+for i in range(3):
+    for j in range(4):
+        a=65
+        print(chr(j),end=" ")
+    print() 
+
+# for i in range(1,4):
+#     a=65
+#     for j in range(i,0,-1):
+#         print(chr((a-1)+j),end=" ")
+#     print()
+# b=3
+# a=65
+# for i in range(1,b+1):
+#     for j in range(i):
+#         print(chr(a+j),end=" ")
+#     print()
+# for i in range(b-1,0,-1):
+#     for j in range(i):
+#         print(chr(a+j),end=" ")
+#     print()
+
+
+
+
+
