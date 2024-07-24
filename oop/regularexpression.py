@@ -31,9 +31,9 @@ import re
 
 
 # a='Abcd123'
-# print(re.search('[a-b]',a))                      
-# print(re.search('[A-Z].*[a-z][0-9]',a))     #AND
-# print('[A-Za-z1-9]',a)                      #OR
+# # print(re.search('[a-b]',a))                      
+# # print(re.search('[A-Z].*[a-z][0-9]',a))     #AND
+# # print('[A-Za-z1-9]',a)                      #OR
 # print('[3$]',a)                             #$
 
 
@@ -50,8 +50,8 @@ import re
 
 
 
-a=input('enter email :')
-if re.search('[A-Za-z1-9].*@gmail.com',a):
-    print('valid')
-else:
-    print('invalid')
+# a=input('enter email :')
+# if re.search('[A-Za-z1-9].*@gmail.com',a):
+#     print('valid')
+# else:
+#     print('invalid')
