@@ -49,3 +49,25 @@ except:
 # for i in data:
 #     print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
 # print()
+
+# data=student.execute("select * from marks where name like 'b%'")
+# print("{:<15}{:<15}{:<15}".format('name','age','mark'))
+# print('_'*34)
+# for i in data:
+#         print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+# print()
+
+# data=student.execute("select * from marks order by name desc")  #descenting=desc,ascending=default
+# print("{:<15}{:<15}{:<15}".format('name','age','mark'))
+# print('_'*34)
+# for i in data:
+#         print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+# print()
+
+
+data=student.execute("select name, sum(mark) from marks group by name")  #max min count avg sum
+# print("{:<15}{:<15}{:<15}".format('name','age','mark'))
+# print('_'*34)
+for i in data:
+#         print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+        print(i)

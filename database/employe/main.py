@@ -19,4 +19,6 @@ while True:
         display()
     elif ch==5:
         search()
+    else:
+        print('INVALID INPUT')
         
