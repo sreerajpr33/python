@@ -65,9 +65,6 @@ except:
 # print()
 
 
-data=student.execute("select name, sum(mark) from marks group by name")  #max min count avg sum
-# print("{:<15}{:<15}{:<15}".format('name','age','mark'))
-# print('_'*34)
-for i in data:
-#         print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
-        print(i)
+# data=student.execute("select name, sum(mark) from marks group by name")  #max min count avg sum
+# for i in data:
+#         print(i)
