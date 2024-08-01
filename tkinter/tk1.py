@@ -1,0 +1,32 @@
+import tkinter
+from tkinter import messagebox
+app=tkinter.Tk()
+def data():
+    # v=v1.get()
+    # l2.config(text=v)
+    # messagebox.showinfo("display",v1.get())
+    # messagebox.askokcancel("display",v1.get())
+    if v_c1.get()==1:
+        print("mal select")
+    if v_c2.get()==1:
+        print("eng select")
+v_c1=tkinter.IntVar()
+v_c2=tkinter.IntVar()
+app.title("syneffo")
+app.minsize(400,400)
+app.maxsize(1000,1000)
+app.config(bg="black")
+l1=tkinter.Label(app,text="black in yellow!",bg="yellow",fg="black")
+l1.pack()
+v1=tkinter.StringVar()
+e1=tkinter.Entry(app,textvariable=v1)
+e1.pack()
+c1=tkinter.Checkbutton(app,text="mal",variable=v_c1)
+c1.pack()
+c2=tkinter.Checkbutton(app,text="eng",variable=v_c2)
+c2.pack()
+b1=tkinter.Button(app,text="save",bg="yellow",fg="black",activebackground="red",activeforeground="white",command=data)
+b1.pack()
+l2=tkinter.Label(app)
+l2.pack()
+app.mainloop()
